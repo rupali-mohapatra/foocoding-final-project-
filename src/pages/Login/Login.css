@@ -1,0 +1,14 @@
+.login {
+  padding-top: 70px;
+  padding-left: 40px;
+}
+.login p {
+  margin-top: 30px;
+  font-size: 18px;
+}
+.login button {
+  margin-top: 40px;
+  padding: 10px;
+  background-color: rgb(186, 249, 91);
+  border-radius: 10px;
+}

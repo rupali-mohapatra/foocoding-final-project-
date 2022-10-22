@@ -1,0 +1,80 @@
+.product {
+  flex: 4;
+  padding: 20px;
+}
+
+.productTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.productAddBtn {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.productAddBtn a{
+  text-decoration: none;
+  color:white;
+}
+
+.productTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.productTop p{
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.productTop span{
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.normal{
+  width: 250px;
+  height: 300px;
+}
+.productUpdate{
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.productUpdateTitle{
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.productUpdateInput{
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.productUpdateImage{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+.productButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}

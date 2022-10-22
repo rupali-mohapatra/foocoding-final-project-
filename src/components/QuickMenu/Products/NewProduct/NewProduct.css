@@ -1,0 +1,19 @@
+.new-product_form {
+  margin-top: 40px;
+  border: 1px solid;
+  border-radius: 4px;
+  margin-left: 10px ;
+}
+.new-product_form-group {
+  margin: 10px;
+  padding: 10px;
+}
+.new-product_form-group input {
+  margin-left: 10px;
+  padding: 10px 10px;
+}
+.new-product_form-group button {
+  padding: 10px;
+  background-color: darkblue;
+  color: white;
+}

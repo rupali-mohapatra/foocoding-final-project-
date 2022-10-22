@@ -1,0 +1,174 @@
+.users {
+  padding-left: 10px;
+}
+.users_list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.users h1 {
+  font-family: 'Trebuchet MS', sans-serif;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 18px;
+  background-color: lightblue;
+  margin-bottom: 10px;
+}
+.users-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin: 60px 60px;
+  gap: 5px;
+  font-size: 20px;
+  border-radius: 10px 20px;
+  background-color: rgb(21, 18, 18);
+  color: white;
+  box-shadow: -1px 1px 13px 10px rgba(238, 9, 242, 0.45);
+  -webkit-box-shadow: -1px 1px 13px 10px rgba(238, 9, 242, 0.45);
+}
+.users-card a {
+  color: white;
+  font-size: 25px;
+}
+.users-card p {
+  margin-bottom: 10px;
+}
+/*Single User*/
+.singleUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.userTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.userAddBtn {
+  padding: 20px;
+  border: none;
+  background-color: teal;
+  border-radius: 5px;
+
+  cursor: pointer;
+  font-size: 16px;
+}
+.userAddBtn a {
+  text-decoration: none;
+  color: white;
+}
+.userContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.userDisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid;
+}
+
+.userDisplayTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.userDisplayTop p {
+  font-weight: 600;
+  font-style: oblique;
+}
+.userDisplayDetail span {
+  font-weight: 300;
+  font-style: normal;
+}
+.userDisplayImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.userUpdate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid;
+  margin-left: 20px;
+}
+.userUpdateImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.userUpdateIcon {
+  cursor: pointer;
+}
+.userUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.userUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+.userUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.userUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.userUpdateInput {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid grey;
+}
+.userUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.userUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+.userUpdateBtn {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+}
+/*NewUser*/
+.new-user_form {
+  margin-top: 40px;
+}
+.new-user_form-group {
+  margin-top: 10px;
+  padding: 10px;
+}
+.new-user_form-group input {
+  margin-left: 20px;
+  padding: 10px 10px;
+}
+.new-user_form-group button {
+  padding: 10px;
+  background-color: darkblue;
+  color: white;
+}
